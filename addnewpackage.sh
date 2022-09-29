@@ -11,4 +11,4 @@ sed -i -e "s|_template_|$1|g" $1.yml
 mv $1.yml ./.github/workflows
 
 ## add entry to readme with status badge
-echo "|   $1   | [![$1](https://github.com/PrebuiltMPR/builder/actions/workflows/$1.yml/badge.svg)](https://github.com/PrebuiltMPR/builder/actions/workflows/$1.yml)  |" >> README.md
+echo "|   $1   | [![$1](https://github.com/ungtb10d/old/actions/workflows/$1.yml/badge.svg)](https://github.com/ungtb10d/old/actions/workflows/$1.yml)  |" >> README.md
